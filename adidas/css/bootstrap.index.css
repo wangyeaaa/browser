@@ -1,0 +1,103 @@
+*{margin:0;
+padding:0;
+}
+ li{
+    list-style: none;
+}
+ a{
+     color:#000;
+ }
+
+.navbar-brand img{
+    margin-top: -30px;
+}
+.carousel{
+    height:500px;
+    margin-top: 50px;
+}
+.carousel img{
+    height:500px;
+    width:100%;
+}
+.btn{
+    background:rgba(0,0,0,.3);
+    color:#FFF;
+   margin-bottom: 200px;
+    margin-left: 40px;
+    width:175px;
+    height:50px;
+
+}
+.btn:hover{
+    background-color: #eee;
+}
+.row img{
+    width:100%;
+}
+.col-md-5:hover{
+    box-shadow: 2px 2px 2px #ccc,-2px -2px 2px #ccc;
+}
+.sale{
+    overflow: hidden;
+
+}
+.sale li:hover{
+    box-shadow: 2px 2px 2px #ccc,-2px -2px 2px #ccc;
+}
+.banner{
+    border: 1px solid #000;
+    height: 90px;
+    background: url("../images/weixinlogo.png") 160px 33px no-repeat,#000;
+}
+.footer{
+    border: 1px solid transparent;
+    width: 100%;
+    background: #363738;
+}
+.footer p{
+    color: #ccc;
+    font-size: 14px;
+    line-height:40px;
+}
+
+/*响应式*/
+@media (max-width:768px){
+    .carousel{
+        height:100px;
+        margin-top: 50px;
+    }
+    .carousel img{
+        height:100px;
+        width:100%;
+    }
+    .btn{
+        background:rgba(0,0,0,.3);
+        color:#FFF;
+        margin-bottom: 200px;
+        margin-left: 40px;
+        width:55px;
+        height:20px;
+    }
+    .btn{
+        margin-bottom: 30px;
+        padding:0;
+        text-align: center;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .carousel-indicators li{
+        width:5px;
+        height:5px;
+    }
+    .carousel-indicators .active{
+        width:5px;
+        height:5px;
+    }
+    p{
+        font-size: 12px;
+    }
+    a{
+        font-style: 12px;
+    }
+}
+
